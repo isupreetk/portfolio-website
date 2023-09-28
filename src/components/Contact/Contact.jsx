@@ -2,37 +2,90 @@ import "./Contact.scss";
 
 function Contact() {
     return (
-        <section className="contact">
-            <h1>CONTACT</h1>
-            <p>Please feel free to reach out if you have any questions or would like to work together</p>
-            <div className="contact__card-container">
-                <div className="contact__card">
-                    <div className="contact__card-content">
-                        <label htmlFor="name" className="contact__card-name-title">Name</label>
-                        <input type="text" name="name" id="name"></input>
-                    </div>
+        // <section className="contact">
+        //     <h1>CONTACT</h1>
+        //     <p>Please feel free to reach out if you have any questions or would like to work together</p>
+        //     <div className="contact__card-container">
+        //         <div className="contact__card">
+        //             <div className="contact__card-content">
+        //                 <label htmlFor="name" className="contact__card-name-title">Name</label>
+        //                 <input type="text" name="name" id="name"></input>
+        //             </div>
 
-                    <div className="contact__card-content">
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" id="email"></input>
-                     </div>
+        //             <div className="contact__card-content">
+        //                 <label htmlFor="email">Email</label>
+        //                 <input type="email" name="email" id="email"></input>
+        //              </div>
 
-                    <div className="contact__card-content">
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message"></textarea>
-                    </div>
+        //             <div className="contact__card-content">
+        //                 <label htmlFor="message">Message</label>
+        //                 <textarea name="message" id="message"></textarea>
+        //             </div>
 
-                    <button>SUBMIT</button>
+        //             <button>SUBMIT</button>
 
-                </div>
+        //         </div>
 
-                <div className="contact__social">
-                    <img src="" alt="LinkedIn" />
-                    <img src="" alt="GitHub" />
-                    <img src="" alt="LeetCode" />
-                </div>
-            </div>
-        </section>
+        //         <div className="contact__social">
+        //             <img src="" alt="LinkedIn" />
+        //             <img src="" alt="GitHub" />
+        //             <img src="" alt="LeetCode" />
+        //         </div>
+        //     </div>
+        // </section>
+
+        <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+            <span class="heading-sec__sub heading-sec__sub--lt">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+              tempora explicabo quae quod deserunt eius sapiente
+            </span>
+          </h2>
+          <div class="contact__form-container">
+            <form action="#" class="contact__form">
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input
+                  required
+                  placeholder="Enter Your Name"
+                  type="text"
+                  class="contact__form-input"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input
+                  required
+                  placeholder="Enter Your Email"
+                  type="text"
+                  class="contact__form-input"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea
+                  required
+                  cols="30"
+                  rows="10"
+                  class="contact__form-input"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  id="message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--theme contact__btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     )
 }
 

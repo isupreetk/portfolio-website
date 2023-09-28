@@ -1,19 +1,23 @@
 import './App.scss';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import Projects from "./components/Projects/Projects";
-import Contact from './components/Contact/Contact';
+import HomePage from './pages/HomePage/HomePage';
+import ProjectPage from './pages/ProjectPage/ProjectPage';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      <Hero />
-      <Projects />
-      <Contact />
+      <Routes>
+
+        <Route path="/" element={<HomePage />} />
+        <Route path="/project" element={<ProjectPage />} />
+
+      </Routes>
+
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
