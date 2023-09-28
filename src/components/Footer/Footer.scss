@@ -1,23 +1,50 @@
-footer .mdi-chevron-double-up {
-    background: #e31b6d;
-    cursor: pointer;
-    font-size: 30pt;
-    height: 50px;
-    left: 0;
-    line-height: 40pt;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    top: -25px;
-    transition: background 0.5s;
-    width: 47px;
-}
-
-
 .main-footer {
+    // background: #000;
+    // color: #fff;
+
+    align-items: flex-start;
     background: #000;
     color: #fff;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
+
+.chevron-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chevron-wrapper {
+    width: 40px;
+    height: 40px;
+    // background: #e31b6d;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // position: absolute;
+    position: relative;
+    top: -20px;
+}
+
+.chevron-double-up {
+    
+    cursor: pointer;
+    // font-size: 30pt;
+    height: 25px;
+    // left: 0;
+    // line-height: 40pt;
+    // margin: 0 auto;
+    // right: 0;
+    // top: -25px;
+    // transition: background 0.5s;
+    // width: 40px;
+}
+
 
 .main-footer__upper {
     display: flex;

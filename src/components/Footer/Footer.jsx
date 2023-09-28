@@ -1,11 +1,18 @@
 import "./Footer.scss";
 import LinkedInIcon from "../../assets/icons/linkedin-icon.png";
 import GitHubIcon from "../../assets/icons/github-icon.png";
+import UpArrowIcon from "../../assets/icons/up-arrow.svg";
 
 function Footer() {
-    return (
-        <footer class="main-footer">
-          {/* <i class="mdi mdi-chevron-double-up page-link" dest="home"></i> */}
+  return (
+    <footer class="main-footer">
+      <div className="chevron-container">
+      <a href="/">
+        <div className="chevron-wrapper">
+        <img src={UpArrowIcon} className="chevron-double-up" alt="Up Arrow" />
+      </div>
+      </a>
+      </div>
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
@@ -42,12 +49,12 @@ function Footer() {
         <div class="main-footer__lower">
           &copy; Copyright 2023. Template by
           <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
+          >Ram Maheshwari</a
           >
         </div>
       </div>
     </footer>
-    )
+  )
 }
 
 export default Footer;
