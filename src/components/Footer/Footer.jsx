@@ -5,6 +5,7 @@ import GitHubIcon from "../../assets/icons/github-icon.png";
 function Footer() {
     return (
         <footer class="main-footer">
+          {/* <i class="mdi mdi-chevron-double-up page-link" dest="home"></i> */}
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
