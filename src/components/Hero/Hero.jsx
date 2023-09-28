@@ -7,6 +7,7 @@ function Hero() {
             HI, MY NAME IS SUPREET KAUR
         </h1>
         <p>As a dedicated software engineer, I'm driven by a passion for turning ideas into reality, through clean code and innovative solutions.</p>
+        <button>PROJECTS</button>
         </section>
     )
 }
