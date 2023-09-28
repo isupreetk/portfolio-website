@@ -6,14 +6,18 @@ function Header() {
         <header class="header">
             <div class="header__content">
                 <div class="header__logo-container">
-                    <div class="header__logo-img-cont">
+                    <a href="/">
+                        <div class="header__logo-img-cont">
                         <img
                             src={SupreetKaurLogo}
                             alt="Supreet Kaur Logo"
                             class="header__logo-img"
                         />
-                    </div>
-                    <span class="header__logo-sub">SUPREET KAUR</span>
+                        </div>
+                    </a>
+                    <span class="header__logo-sub">
+                        <a href="/">SUPREET KAUR</a>
+                    </span>
                 </div>
                 <div class="header__main">
                     <ul class="header__links">
