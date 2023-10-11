@@ -30,13 +30,14 @@ function About() {
                 On the personal front - I find peace in painting, dancing and traveling to explore new places.
               </p>
               <p class="about__content-details-para">
-               Feel free to 
-                <strong> contact</strong> me here.
+              Please feel free to reach out if you have any questions or would like to work together! 
+              {/* Feel free to 
+                <strong> contact</strong> me here. */}
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            {/* <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
-            >
+            > */}
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">My Skills</h3>
