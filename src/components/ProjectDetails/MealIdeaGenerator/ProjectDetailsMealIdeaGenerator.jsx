@@ -42,13 +42,13 @@ function ProjectDetailsMealIdeaGenerator() {
                                 <a
                                     href="https://supreet-kaur-meal-generator.netlify.app/"
                                     class="btn btn--med btn--theme project-details__links-btn"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >Live Link</a
                                 >
                                 <a
                                     href="https://github.com/isupreetk/MealGenerator.git"
                                     class="btn btn--med btn--theme-inv project-details__links-btn"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >Code Link</a
                                 >
                             </div>

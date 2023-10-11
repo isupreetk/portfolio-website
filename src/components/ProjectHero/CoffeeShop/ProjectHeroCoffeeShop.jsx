@@ -12,7 +12,7 @@ function ProjectHeroCoffeeShop() {
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="https://supreet-kaur-coffeeshop.netlify.app/" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://supreet-kaur-coffeeshop.netlify.app/" class="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
         </div>
       </div>
     </section>

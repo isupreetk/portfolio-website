@@ -34,13 +34,13 @@ function ProjectDetailsTravelSite() {
                                 <a
                                     href="https://supreet-kaur-travelsite.netlify.app/"
                                     class="btn btn--med btn--theme project-details__links-btn"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >Live Link</a
                                 >
                                 <a
                                     href="https://github.com/isupreetk/travelsite.git"
                                     class="btn btn--med btn--theme-inv project-details__links-btn"
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                 >Code Link</a
                                 >
                             </div>

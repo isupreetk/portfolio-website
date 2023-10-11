@@ -12,7 +12,7 @@ function ProjectHeroBandSite() {
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="https://supreet-kaur-bandsite.netlify.app/" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="https://supreet-kaur-bandsite.netlify.app/" class="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
         </div>
       </div>
     </section>

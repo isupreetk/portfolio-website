@@ -12,7 +12,7 @@ function ProjectHeroBrainFlix() {
           </p>
         </div>
         <div class="project-cs-hero__cta">
-          <a href="/project" class="btn btn--bg" target="_blank">Live Link</a>
+          <a href="/project" class="btn btn--bg" target="_blank" rel="noreferrer">Live Link</a>
         </div>
       </div>
     </section>
