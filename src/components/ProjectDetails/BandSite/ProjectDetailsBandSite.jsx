@@ -39,12 +39,12 @@ function ProjectDetailsBandSite() {
                                     target="_blank" rel="noreferrer"
                                 >Live Link</a
                                 >
-                                {/* <a
+                                <a
                                     href="https://github.com/isupreetk/BandSite.git"
                                     class="btn btn--med btn--theme-inv project-details__links-btn"
                                     target="_blank" rel="noreferrer"
                                 >Code Link</a
-                                > */}
+                                >
                             </div>
                         </div>
                     </div>
