@@ -39,8 +39,7 @@ function Contact() {
           <h2 class="heading heading-sec heading-sec__mb-med">
             <span class="heading-sec__main heading-sec__main--lt">Contact</span>
             <span class="heading-sec__sub heading-sec__sub--lt">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-              tempora explicabo quae quod deserunt eius sapiente
+              Always happy to connect! New connections lead to new learnings!
             </span>
           </h2>
           <div class="contact__form-container">

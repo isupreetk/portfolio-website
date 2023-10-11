@@ -1,5 +1,7 @@
 import "./Header.scss";
 import SupreetKaurLogo from "../../assets/images/supreet-kaur.jpg";
+import HamburgerMenu from "../../assets/icons/ham-menu.svg"
+import HamburgerMenuClose from "../../assets/icons/ham-menu-close.svg"
 
 function Header() {
     return (
@@ -36,12 +38,12 @@ function Header() {
                     </ul>
                     <div class="header__main-ham-menu-cont">
                         <img
-                            src="./assets/svg/ham-menu.svg"
+                            src={HamburgerMenu}
                             alt="hamburger menu"
                             class="header__main-ham-menu"
                         />
                         <img
-                            src="./assets/svg/ham-menu-close.svg"
+                            src={HamburgerMenuClose}
                             alt="hamburger menu close"
                             class="header__main-ham-menu-close d-none"
                         />

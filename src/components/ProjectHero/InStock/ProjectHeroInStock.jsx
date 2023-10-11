@@ -1,16 +1,14 @@
-import "./ProjectHero.scss";
+import "./ProjectHeroInStock.scss";
 
-function ProjectHero() {
+function ProjectHeroInStock() {
     return (
         <>
         <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Project 1</h1>
+        <h1 class="heading-primary">In Stock</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            in numquam incidunt earum quaerat cum fuga, atque similique natus
-            nobis sit.
+            This is a web-based application for tracking the inventory and warehouses.
           </p>
         </div>
         <div class="project-cs-hero__cta">
@@ -22,4 +20,4 @@ function ProjectHero() {
     )
 }
 
-export default ProjectHero;
+export default ProjectHeroInStock;

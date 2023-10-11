@@ -8,8 +8,7 @@ function About() {
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">About Me</span>
           <span class="heading-sec__sub">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+          An Electronics and Telecommunication Engineer turned Software Engineer.
           </span>
         </h2>
         <div class="about__content">
@@ -19,18 +18,19 @@ function About() {
               <p class="about__content-details-para">
                 Hey! It's
                 <strong> Supreet Kaur </strong>
-                and I'm a <strong> Frontend Web Developer </strong> located in
-                Los Angeles. I've done
-                <strong> remote </strong>
-                projects for agencies, consulted for startups, and collaborated
-                with talented people to create
-                <strong> digital products </strong>
-                for both business and consumer use.
+                and I'm a <strong> Software Engineer </strong> located in
+                Vancouver. I've 2+ years of experience
+                <strong> building and implementing
+                dynamic web-based applications. </strong>
+                In
+                addition to my technical skills, one of my strengths is discussing complex topics with technical and
+                non-technical audiences.
               </p>
               <p class="about__content-details-para">
-                I'm a bit of a digital product junky. Over the years, I've used
-                hundreds of web and mobile apps in different industries and
-                verticals. Feel free to 
+                On the personal front - I find peace in painting, dancing and traveling to explore new places.
+              </p>
+              <p class="about__content-details-para">
+               Feel free to 
                 <strong> contact</strong> me here.
               </p>
             </div>
@@ -46,13 +46,13 @@ function About() {
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">React</div>
               <div class="skills__skill">SASS</div>
+              <div class="skills__skill">BootStrap</div>
               <div class="skills__skill">GIT</div>
-              <div class="skills__skill">Shopify</div>
-              <div class="skills__skill">Wordpress</div>
-              <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div>
+              <div class="skills__skill">ExpressJS</div>
+              <div class="skills__skill">NodeJS</div>
+              <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Heroku</div>
+              <div class="skills__skill">TypeScript</div>
             </div>
           </div>
         </div>
