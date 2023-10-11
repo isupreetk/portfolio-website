@@ -5,6 +5,12 @@
 //     background: #fff;
     background: #000;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); 
+
+    @media only screen and (max-width: 56.25em) {
+      .header__content {
+            height: 8rem;
+      } 
+  }
 }
 
 .header__content {
@@ -16,7 +22,7 @@
 
 @media only screen and (max-width: 56.25em) {
     .header__content {
-          padding: 0 2rem; 
+          padding: 2rem; 
     } 
 }
 
@@ -136,7 +142,7 @@
         opacity: 0; 
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 37.5rem) {
     .header__sm-menu--active {
             visibility: visible;
             opacity: 1; 

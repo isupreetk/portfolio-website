@@ -1,7 +1,7 @@
 import "./Header.scss";
 import SupreetKaurLogo from "../../assets/images/supreet-kaur.jpg";
-import HamburgerMenu from "../../assets/icons/ham-menu.svg"
-import HamburgerMenuClose from "../../assets/icons/ham-menu-close.svg"
+// import HamburgerMenu from "../../assets/icons/ham-menu.svg";
+// import HamburgerMenuClose from "../../assets/icons/ham-menu-close.svg";
 
 function Header() {
     return (
@@ -36,21 +36,24 @@ function Header() {
                             <a href="/#contact" class="header__link">Contact</a>
                         </li> */}
                     </ul>
-                    <div class="header__main-ham-menu-cont">
-                        <img
+                    {/* <div class="header__main-ham-menu-cont">
+                        <a><img
                             src={HamburgerMenu}
                             alt="hamburger menu"
                             class="header__main-ham-menu"
                         />
+                        </a>
+                        <a>
                         <img
                             src={HamburgerMenuClose}
                             alt="hamburger menu close"
                             class="header__main-ham-menu-close d-none"
                         />
-                    </div>
+                        </a>
+                    </div> */}
                 </div>
             </div>
-            <div class="header__sm-menu">
+            {/* <div class="header__sm-menu">
                 <div class="header__sm-menu-content">
                     <ul class="header__sm-menu-links">
                         <li class="header__sm-menu-link">
@@ -65,12 +68,12 @@ function Header() {
                             <a href="/#projects">Projects</a>
                         </li>
 
-                        {/* <li class="header__sm-menu-link">
+                        <li class="header__sm-menu-link">
                             <a href="/#contact">Contact</a>
-                        </li> */}
+                        </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </header>
     )
 }
