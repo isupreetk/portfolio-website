@@ -1,5 +1,10 @@
 import "./Projects.scss";
-import ProjectScreen from "../../assets/images/project-screen.jpeg";
+import ProjectScreenEasyServices from "../../assets/images/project-screen-easyservices.jpeg";
+import ProjectScreenPokeMania from "../../assets/images/project-screen-pokemania.jpeg"
+import ProjectScreenMealGenerator from "../../assets/images/project-screen-mealgenerator.jpeg";
+import ProjectScreenBandSite from "../../assets/images/project-screen-bandsite.jpeg";
+import ProjectScreenTravelSite from "../../assets/images/project-screen-travelsite.jpeg";
+import ProjectScreenCoffeeShop from "../../assets/images/project-screen-coffeeshop.jpeg";
 
 function Projects() {
   return (
@@ -17,7 +22,7 @@ function Projects() {
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenEasyServices}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"
@@ -36,7 +41,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="projects__row">
+            {/* <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
                   src={ProjectScreen}
@@ -58,13 +63,12 @@ function Projects() {
               </div>
 
 
-            </div>
+            </div> */}
 
-            {/* new code */}
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenPokeMania}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"
@@ -83,7 +87,7 @@ function Projects() {
               </div>
             </div>
 
-            <div class="projects__row">
+            {/* <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
                   src={ProjectScreen}
@@ -107,12 +111,12 @@ function Projects() {
 
             </div>
 
-            
+             */}
 
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenMealGenerator}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"
@@ -138,7 +142,7 @@ function Projects() {
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenBandSite}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"
@@ -163,7 +167,7 @@ function Projects() {
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenTravelSite}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"
@@ -185,7 +189,7 @@ function Projects() {
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
-                  src={ProjectScreen}
+                  src={ProjectScreenCoffeeShop}
                   alt="Software Screenshot"
                   class="projects__row-img"
                   loading="lazy"

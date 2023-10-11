@@ -1,5 +1,5 @@
 import "./ProjectDetailsCoffeeShop.scss";
-import ProjectScreen from "../../../assets/images/project-screen.jpeg";
+import ProjectScreenCoffeeShop from "../../../assets/images/project-screen-coffeeshop.jpeg";
 
 function ProjectDetailsCoffeeShop() {
     return (
@@ -9,7 +9,7 @@ function ProjectDetailsCoffeeShop() {
                     <div class="project-details__content">
                         <div class="project-details__showcase-img-cont">
                             <img
-                                src={ProjectScreen}
+                                src={ProjectScreenCoffeeShop}
                                 alt="Project Screen"
                                 class="project-details__showcase-img"
                             />

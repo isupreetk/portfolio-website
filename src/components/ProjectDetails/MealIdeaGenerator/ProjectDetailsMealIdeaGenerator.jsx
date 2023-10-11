@@ -1,5 +1,5 @@
 import "./ProjectDetailsMealIdeaGenerator.scss";
-import ProjectScreen from "../../../assets/images/project-screen.jpeg";
+import ProjectScreenMealGenerator from "../../../assets/images/project-screen-mealgenerator.jpeg";
 
 function ProjectDetailsMealIdeaGenerator() {
     return (
@@ -9,7 +9,7 @@ function ProjectDetailsMealIdeaGenerator() {
                     <div class="project-details__content">
                         <div class="project-details__showcase-img-cont">
                             <img
-                                src={ProjectScreen}
+                                src={ProjectScreenMealGenerator}
                                 alt="Project Screen"
                                 class="project-details__showcase-img"
                             />

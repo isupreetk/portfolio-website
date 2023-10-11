@@ -1,5 +1,5 @@
 import "./ProjectDetailsPokeMania.scss";
-import ProjectScreen from "../../../assets/images/project-screen.jpeg";
+import ProjectScreenPokeMania from "../../../assets/images/project-screen-pokemania.jpeg"
 
 function ProjectDetailsPokeMania() {
     return (
@@ -9,7 +9,7 @@ function ProjectDetailsPokeMania() {
                     <div class="project-details__content">
                         <div class="project-details__showcase-img-cont">
                             <img
-                                src={ProjectScreen}
+                                src={ProjectScreenPokeMania}
                                 alt="Project Screen"
                                 class="project-details__showcase-img"
                             />
