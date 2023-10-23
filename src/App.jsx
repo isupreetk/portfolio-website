@@ -10,6 +10,7 @@ import ProjectPageMealIdeaGenerator from './pages/ProjectPage/MealIdeaGenerator/
 import ProjectPageBandSite from "./pages/ProjectPage/BandSite/ProjectPageBandSite";
 import ProjectPageTravelSite from './pages/ProjectPage/TravelSite/ProjectPageTravelSite';
 import ProjectPageCoffeeShop from './pages/ProjectPage/CoffeeShop/ProjectPageCoffeeShop';
+import ProjectPageCrisisConnect from './pages/ProjectPage/CrisisConnect/ProjectPageCrisisConnect';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Route path="/project/6" element={<ProjectPageBandSite />} />
         <Route path="/project/7" element={<ProjectPageTravelSite />} />
         <Route path="/project/8" element={<ProjectPageCoffeeShop />} />
-        
+        <Route path="/project/9" element={<ProjectPageCrisisConnect />} />
 
       </Routes>
 

@@ -30,7 +30,7 @@ function About() {
                 On the personal front - I find peace in painting, dancing and traveling to explore new places.
               </p>
               <p class="about__content-details-para">
-              Please feel free to reach out if you have any questions or would like to work together! 
+              Please feel free to reach out on <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kaur-supreet/"><strong>LinkedIn</strong></a> if you have any questions or would like to collaborate! 
               {/* Feel free to 
                 <strong> contact</strong> me here. */}
               </p>

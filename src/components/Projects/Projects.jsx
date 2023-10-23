@@ -5,6 +5,7 @@ import ProjectScreenMealGenerator from "../../assets/images/project-screen-mealg
 import ProjectScreenBandSite from "../../assets/images/project-screen-bandsite.jpeg";
 import ProjectScreenTravelSite from "../../assets/images/project-screen-travelsite.jpeg";
 import ProjectScreenCoffeeShop from "../../assets/images/project-screen-coffeeshop.jpeg";
+import ProjectScreenCrisisConnect from "../../assets/images/project-screen-crisis-connect.jpeg";
 
 function Projects() {
   return (
@@ -19,6 +20,54 @@ function Projects() {
           </h2>
 
           <div class="projects__content">
+
+          <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src={ProjectScreenCrisisConnect}
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">CrisisConnect</h3>
+                <p class="projects__row-content-desc">
+                This is an application built during the WWCode Hackathon for Social Good, 2023. It helps users provide and receive support during natural disasters.
+                </p>
+                <a
+                  href="./project/9"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                >Case Study</a
+                >
+              </div>
+            </div>
+
+            {/* <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src={ProjectScreen}
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">InStock</h3>
+                <p class="projects__row-content-desc">
+                This is a web-based application for tracking the inventory and warehouses.
+                </p>
+                <a
+                  href="./project/2"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                >Case Study</a
+                >
+              </div>
+
+
+            </div> */}
+
+
             <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
@@ -31,7 +80,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">EasyServices</h3>
                 <p class="projects__row-content-desc">
-                This is a web-based application for indiviual service providers to register and leverage their skills to help people out with. 
+                This is a web-based application for individual service providers to register and leverage their skills to help people out with. 
                 </p>
                 <a
                   href="./project/1"
