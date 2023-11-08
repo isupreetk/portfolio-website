@@ -18,7 +18,7 @@ function ProjectDetailsCrisisConnect() {
                             <div class="project-details__desc">
                                 <h3 class="project-details__content-title">Project Overview</h3>
                                 <p class="project-details__desc-para">
-                                A mobile-specific application for a community-driven forum for firsthand disaster updates. This provides instant alerts on prevailing assistance needs, curated recovery tips tailored to current natural disaster trends and seamless options to contribute, either to non-profits or directly to those impacted.
+                                    A mobile-specific application for a community-driven forum for firsthand disaster updates. This provides instant alerts on prevailing assistance needs, curated recovery tips tailored to current natural disaster trends and seamless options to contribute, either to non-profits or directly to those impacted.
                                 </p>
                             </div>
                             <div class="project-details__tools-used">

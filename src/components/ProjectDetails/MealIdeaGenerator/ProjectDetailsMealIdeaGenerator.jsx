@@ -22,10 +22,10 @@ function ProjectDetailsMealIdeaGenerator() {
                                 </p>
 
                                 <p class="project-details__desc-para">
-                                I usually run out of ideas thinking of what to have for my next meal. To help me with this, I have come up with this Meal Idea Generator.
+                                    I usually run out of ideas thinking of what to have for my next meal. To help me with this, I have come up with this Meal Idea Generator.
                                 </p>
 
-                                
+
                             </div>
                             <div class="project-details__tools-used">
                                 <h3 class="project-details__content-title">Tools Used</h3>

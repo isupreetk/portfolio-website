@@ -21,11 +21,11 @@ function ProjectDetailsEasyServices() {
                                     A trusted solution for hassle-free services. From home maintenance to beauty treatments and expert consultations, this application will connect the user with verified professionals. Say goodbye to uncertainty, hello to convenience!
                                 </p>
                                 <p class="project-details__desc-para">
-                                    When I recently migrated to Canada, I had trouble when I needed things to be fixed at home because I had no word of mouth references / recommendations. This was the inspiration behind the idea for creating a full stack web-based application as my Capstone project for the 12 week Web Development Bootcamp at BrainStation. 
+                                    When I recently migrated to Canada, I had trouble when I needed things to be fixed at home because I had no word of mouth references / recommendations. This was the inspiration behind the idea for creating a full stack web-based application as my Capstone project for the 12 week Web Development Bootcamp at BrainStation.
                                 </p>
                                 <p class="project-details__desc-para">
                                     This application helps clients book appointments for services they are interested in. The service providers will see all the active booking requests in their feed and will be able to see the user inputs they had entered while making the booking. This would help them know the task at hand upfront removing the need to make the initial visit for inspection. This makes the process faster. Also, the service provider would be able to add their quote and the time they think they would take to get the work done so that the client can make themselves available at home for that duration.
-                                    The client can then view and compare all the quotes received from the various service providers and accept / reject it based on their preference. 
+                                    The client can then view and compare all the quotes received from the various service providers and accept / reject it based on their preference.
                                 </p>
                             </div>
                             <div class="project-details__tools-used">

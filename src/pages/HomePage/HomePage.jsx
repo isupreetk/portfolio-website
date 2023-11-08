@@ -8,12 +8,12 @@ function HomePage() {
     return (
 
         <div className="App">
-            
+
             <Hero />
             <About />
             <Projects />
             {/* <Contact /> */}
-        
+
         </div>
 
     )

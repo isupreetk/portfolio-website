@@ -10,11 +10,11 @@ function Header() {
                 <div class="header__logo-container">
                     <a href="/">
                         <div class="header__logo-img-cont">
-                        <img
-                            src={SupreetKaurLogo}
-                            alt="Supreet Kaur Logo"
-                            class="header__logo-img"
-                        />
+                            <img
+                                src={SupreetKaurLogo}
+                                alt="Supreet Kaur Logo"
+                                class="header__logo-img"
+                            />
                         </div>
                     </a>
                     <span class="header__logo-sub">

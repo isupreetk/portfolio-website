@@ -18,7 +18,7 @@ function ProjectDetailsInStock() {
                             <div class="project-details__desc">
                                 <h3 class="project-details__content-title">Project Overview</h3>
                                 <p class="project-details__desc-para">
-                                This was a team project where I got the opportunity to collaborate with two more talented developers from my cohort at BrainStation.
+                                    This was a team project where I got the opportunity to collaborate with two more talented developers from my cohort at BrainStation.
                                 </p>
                             </div>
                             <div class="project-details__tools-used">

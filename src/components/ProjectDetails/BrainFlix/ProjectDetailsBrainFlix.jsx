@@ -18,7 +18,7 @@ function ProjectDetailsBrainFlix() {
                             <div class="project-details__desc">
                                 <h3 class="project-details__content-title">Project Overview</h3>
                                 <p class="project-details__desc-para">
-                                This is the first full-stack application I created.
+                                    This is the first full-stack application I created.
                                 </p>
                             </div>
                             <div class="project-details__tools-used">

@@ -18,7 +18,7 @@ function ProjectDetailsBandSite() {
                             <div class="project-details__desc">
                                 <h3 class="project-details__content-title">Project Overview</h3>
                                 <p class="project-details__desc-para">
-                                This is a multi-page website. The project is broken down into two main pages: a Landing Page, and a Shows Page. The Landing Page is the main page for the site and is where visitors can access basic information and add comments. The Shows page will provide further details about the upcoming events by the band.
+                                    This is a multi-page website. The project is broken down into two main pages: a Landing Page, and a Shows Page. The Landing Page is the main page for the site and is where visitors can access basic information and add comments. The Shows page will provide further details about the upcoming events by the band.
                                 </p>
                             </div>
                             <div class="project-details__tools-used">

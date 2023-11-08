@@ -7,11 +7,11 @@ function Footer() {
   return (
     <footer class="main-footer">
       <div className="chevron-container">
-      <a href="/">
-        <div className="chevron-wrapper">
-        <img src={UpArrowIcon} className="chevron-double-up" alt="Up Arrow" />
-      </div>
-      </a>
+        <a href="/">
+          <div className="chevron-wrapper">
+            <img src={UpArrowIcon} className="chevron-double-up" alt="Up Arrow" />
+          </div>
+        </a>
       </div>
       <div class="main-container">
         <div class="main-footer__upper">

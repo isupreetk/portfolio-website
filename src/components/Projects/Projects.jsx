@@ -15,13 +15,13 @@ function Projects() {
           <h2 class="heading heading-sec heading-sec__mb-bg">
             <span class="heading-sec__main">Projects</span>
             <span class="heading-sec__sub">
-              
+
             </span>
           </h2>
 
           <div class="projects__content">
 
-          <div class="projects__row">
+            <div class="projects__row">
               <div class="projects__row-img-cont">
                 <img
                   src={ProjectScreenCrisisConnect}
@@ -33,7 +33,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">CrisisConnect</h3>
                 <p class="projects__row-content-desc">
-                This is an application built during the WWCode Hackathon for Social Good, 2023. It helps users provide and receive support during natural disasters.
+                  This is an application built during the WWCode Hackathon for Social Good, 2023. It helps users provide and receive support during natural disasters.
                 </p>
                 <a
                   href="./project/9"
@@ -80,7 +80,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">EasyServices</h3>
                 <p class="projects__row-content-desc">
-                This is a web-based application for individual service providers to register and leverage their skills to help people out with. 
+                  This is a web-based application for individual service providers to register and leverage their skills to help people out with.
                 </p>
                 <a
                   href="./project/1"
@@ -126,7 +126,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">PokeMania</h3>
                 <p class="projects__row-content-desc">
-                A trivia game application for guessing the names of Pokémon characters.
+                  A trivia game application for guessing the names of Pokémon characters.
                 </p>
                 <a
                   href="./project/3"
@@ -174,7 +174,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">Meal Idea Generator</h3>
                 <p class="projects__row-content-desc">
-                This is a website created to suggest dishes based on the type of cuisine that you are craving for. Also, it can be used to suggest a random dish if you have no specific preference.
+                  This is a website created to suggest dishes based on the type of cuisine that you are craving for. Also, it can be used to suggest a random dish if you have no specific preference.
                 </p>
                 <a
                   href="./project/5"
@@ -200,7 +200,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">BandSite</h3>
                 <p class="projects__row-content-desc">
-                This is a fully responsive website for a trendy band group.
+                  This is a fully responsive website for a trendy band group.
                 </p>
                 <a
                   href="./project/6"
@@ -225,7 +225,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">Travel Site</h3>
                 <p class="projects__row-content-desc">
-                This is a website for an agency that helps with organising travel bookings.
+                  This is a website for an agency that helps with organising travel bookings.
                 </p>
                 <a
                   href="./project/7"
@@ -247,7 +247,7 @@ function Projects() {
               <div class="projects__row-content">
                 <h3 class="projects__row-content-title">Coffee Shop</h3>
                 <p class="projects__row-content-desc">
-                This is a multi-page website for a Coffee Shop. 
+                  This is a multi-page website for a Coffee Shop.
                 </p>
                 <a
                   href="./project/8"

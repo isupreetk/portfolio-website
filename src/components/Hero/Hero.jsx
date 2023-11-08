@@ -1,9 +1,9 @@
 import "./Hero.scss";
 
 function Hero() {
-    return(
-        <>
-            {/* <section className="hero-section">
+  return (
+    <>
+      {/* <section className="hero-section">
                 <h1>
                     HI, MY NAME IS SUPREET KAUR
                 </h1>
@@ -11,19 +11,19 @@ function Hero() {
                 <button>PROJECTS</button>
                 </section> 
             */}
-             <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">HEY, MY NAME IS SUPREET KAUR</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            SOFTWARE ENGINEER
-          </p>
+      <section class="home-hero">
+        <div class="home-hero__content">
+          <h1 class="heading-primary">HEY, MY NAME IS SUPREET KAUR</h1>
+          <div class="home-hero__info">
+            <p class="text-primary">
+              SOFTWARE DEVELOPER
+            </p>
+          </div>
+          <div class="home-hero__cta">
+            <a href="./#projects" class="btn btn--bg">Projects</a>
+          </div>
         </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
-        </div>
-      </div>
-      {/* <div class="home-hero__socials">
+        {/* <div class="home-hero__socials">
         <div class="home-hero__social">
           <a href="#" class="home-hero__social-icon-link">
             <img
@@ -73,12 +73,12 @@ function Hero() {
           </a>
         </div>
       </div> */}
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
-      </div>
-    </section>
-        </>
-    )
+        <div class="home-hero__mouse-scroll-cont">
+          <div class="mouse"></div>
+        </div>
+      </section>
+    </>
+  )
 }
 
 export default Hero;
