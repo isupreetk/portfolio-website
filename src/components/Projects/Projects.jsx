@@ -6,6 +6,7 @@ import ProjectScreenBandSite from "../../assets/images/project-screen-bandsite.j
 import ProjectScreenTravelSite from "../../assets/images/project-screen-travelsite.jpeg";
 import ProjectScreenCoffeeShop from "../../assets/images/project-screen-coffeeshop.jpeg";
 import ProjectScreenCrisisConnect from "../../assets/images/project-screen-crisis-connect.jpeg";
+import ProjectScreenWeatherForecaster from "../../assets/images/project-screen-weather-forecaster.jpeg";
 
 function Projects() {
   return (
@@ -130,6 +131,28 @@ function Projects() {
                 </p>
                 <a
                   href="./project/3"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                >Case Study</a
+                >
+              </div>
+            </div>
+
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src={ProjectScreenWeatherForecaster}
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">Weather Forecaster</h3>
+                <p class="projects__row-content-desc">
+                  A weather forecaster application for getting real-time weather information.
+                </p>
+                <a
+                  href="./project/10"
                   class="btn btn--med btn--theme dynamicBgClr"
                 >Case Study</a
                 >

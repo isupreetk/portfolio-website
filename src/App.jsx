@@ -11,6 +11,7 @@ import ProjectPageBandSite from "./pages/ProjectPage/BandSite/ProjectPageBandSit
 import ProjectPageTravelSite from './pages/ProjectPage/TravelSite/ProjectPageTravelSite';
 import ProjectPageCoffeeShop from './pages/ProjectPage/CoffeeShop/ProjectPageCoffeeShop';
 import ProjectPageCrisisConnect from './pages/ProjectPage/CrisisConnect/ProjectPageCrisisConnect';
+import ProjectPageWeatherForecaster from './pages/ProjectPage/WeatherForecaster/ProjectPageWeatherForecaster';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/project/7" element={<ProjectPageTravelSite />} />
         <Route path="/project/8" element={<ProjectPageCoffeeShop />} />
         <Route path="/project/9" element={<ProjectPageCrisisConnect />} />
+        <Route path="/project/10" element={<ProjectPageWeatherForecaster />} />
 
       </Routes>
 
