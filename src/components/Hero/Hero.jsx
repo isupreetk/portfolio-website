@@ -15,12 +15,12 @@ function Hero() {
         <div class="home-hero__content">
           <h1 class="heading-primary">HEY, MY NAME IS SUPREET KAUR</h1>
           <div class="home-hero__info">
-            <p class="text-primary">
-              SOFTWARE DEVELOPER
-            </p>
+            <p class="text-primary">SOFTWARE DEVELOPER</p>
           </div>
           <div class="home-hero__cta">
-            <a href="./#projects" class="btn btn--bg">Projects</a>
+            <a href="./#projects" class="btn btn--bg">
+              Projects
+            </a>
           </div>
         </div>
         {/* <div class="home-hero__socials">
@@ -78,7 +78,7 @@ function Hero() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default Hero;

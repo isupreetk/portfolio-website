@@ -9,7 +9,11 @@ function Footer() {
       <div className="chevron-container">
         <a href="/">
           <div className="chevron-wrapper">
-            <img src={UpArrowIcon} className="chevron-double-up" alt="Up Arrow" />
+            <img
+              src={UpArrowIcon}
+              className="chevron-double-up"
+              alt="Up Arrow"
+            />
           </div>
         </a>
       </div>
@@ -20,18 +24,30 @@ function Footer() {
               <span>Social</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kaur-supreet/">
-                <img
-                  class="main-footer__icon"
-                  src={LinkedInIcon}
-                  alt="icon"
-                />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/kaur-supreet/"
+              >
+                <img class="main-footer__icon" src={LinkedInIcon} alt="icon" />
               </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/isupreetk">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/isupreetk"
+              >
+                <img class="main-footer__icon" src={GitHubIcon} alt="icon" />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.leetcode.com/supreet97"
+              >
                 <img
                   class="main-footer__icon"
-                  src={GitHubIcon}
-                  alt="icon"
+                  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+                  alt="supreet97"
+                  height="30"
                 />
               </a>
             </div>
@@ -39,18 +55,17 @@ function Footer() {
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">SUPREET KAUR</h4>
             <p class="main-footer__short-desc">
-              A Lifelong Learner
+              A Lifelong Learner driven by a passion for turning ideas into
+              reality.
             </p>
           </div>
         </div>
 
         {/* <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) --> */}
-        <div class="main-footer__lower">
-          &copy; Copyright 2023
-        </div>
+        <div class="main-footer__lower">&copy; Copyright 2023</div>
       </div>
     </footer>
-  )
+  );
 }
 
 export default Footer;

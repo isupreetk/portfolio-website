@@ -8,7 +8,8 @@ function About() {
           <h2 class="heading heading-sec heading-sec__mb-med">
             <span class="heading-sec__main">About Me</span>
             <span class="heading-sec__sub">
-              An Electronics and Telecommunication Engineer turned Software Developer.
+              An Electronics and Telecommunication Engineer turned Software
+              Developer.
             </span>
           </h2>
           <div class="about__content">
@@ -19,25 +20,28 @@ function About() {
                   Hey! It's
                   <strong> Supreet Kaur </strong>
                   and I'm a <strong> Software Developer </strong> located in
-                  Vancouver. I've 2+ years of experience
-                  <strong> building and implementing
-                    dynamic web-based applications. </strong>
-                  In
-                  addition to my technical skills, one of my strengths is discussing complex topics with technical and
-                  non-technical audiences.
+                  Canada. I've 4+ years of experience
+                  <strong>
+                    {" "}
+                    building and implementing dynamic web-based applications.{" "}
+                  </strong>
+                  In addition to my technical skills, one of my strengths is
+                  discussing complex topics with technical and non-technical
+                  audiences.
                 </p>
                 <p class="about__content-details-para">
-                  On the personal front - I find peace in painting, dancing and traveling to explore new places.
+                  On the personal front - I find peace in baking, dancing and
+                  traveling to explore new places.
                 </p>
-                <p class="about__content-details-para">
-                  Please feel free to reach out on <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kaur-supreet/"><strong>LinkedIn</strong></a> if you have any questions or would like to collaborate!
-                  {/* Feel free to 
-                <strong> contact</strong> me here. */}
-                </p>
+                {/* <p class="about__content-details-para">
+                   Please feel free to reach out on <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kaur-supreet/"><strong>LinkedIn</strong></a> if you have any questions or would like to collaborate! 
+                  Feel free to
+                  <strong> contact</strong> me here.
+                </p> */}
               </div>
-              {/* <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
-              >Contact</a
-            > */}
+              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">
+                Contact
+              </a>
             </div>
             <div class="about__content-skills">
               <h3 class="about__content-title">My Skills</h3>
@@ -60,7 +64,7 @@ function About() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default About;
