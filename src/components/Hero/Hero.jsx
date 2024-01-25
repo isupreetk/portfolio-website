@@ -17,6 +17,16 @@ function Hero() {
           <div class="home-hero__info">
             <p class="text-primary">SOFTWARE DEVELOPER</p>
           </div>
+          <div class="home-hero__cta home-hero__cta--resume">
+            <a
+              target="_blank"
+              rel="noreferrer noopener"
+              href="https://drive.google.com/file/d/1EqB7u-piO0U3hdtTWZn1ChzsatePt_BQ/view?usp=sharing"
+              class="btn btn--resume"
+            >
+              View Resume Here
+            </a>
+          </div>
           <div class="home-hero__cta">
             <a href="./#projects" class="btn btn--bg">
               Projects

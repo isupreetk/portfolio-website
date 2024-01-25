@@ -118,4 +118,10 @@
 .home-hero__cta {
     margin-top: 5rem;
     text-align: center;
+
+    &--resume {
+        background-color: none;
+        margin-top: 3rem;
+        color: black;
+    }
 }

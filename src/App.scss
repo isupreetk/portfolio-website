@@ -196,6 +196,21 @@ textarea {
   font-size: 2rem;
 }
 
+.btn--resume {
+  background: none;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.15);
+  transition: transform .3s;
+  padding: 1.5rem 8rem;
+  font-size: 2rem;
+}
+
 .btn--med {
   padding: 1.5rem 5rem;
   font-size: 1.6rem;
