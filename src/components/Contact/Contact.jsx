@@ -7,9 +7,7 @@ function Contact() {
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">
-            Get in Touch
-          </span>
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
             Always happy to connect! New connections lead to new learnings!
             {/* Please feel free to reach out if you have any questions or would
