@@ -8,8 +8,8 @@ function ProjectHeroMusicPlayerApp() {
           <h1 class="heading-primary">Music Player App</h1>
           <div class="project-cs-hero__info">
             <p class="text-primary">
-              This is a website for a religious group that I am part of to ease
-              out searching, filtering and playing hymns / music.
+              This is a website for a religious group to allow users to search,
+              filter and play hymns / music.
             </p>
           </div>
           <div class="project-cs-hero__cta">

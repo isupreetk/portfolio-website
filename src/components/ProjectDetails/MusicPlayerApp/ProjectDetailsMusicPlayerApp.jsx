@@ -1,5 +1,5 @@
 import "./ProjectDetailsMusicPlayerApp.scss";
-import ProjectScreenMusicPlayerApp from "../../../assets/images/project-screen-pokemania.jpeg";
+import ProjectScreenMusicPlayerApp from "../../../assets/images/project-screen-music-player-app.jpeg";
 
 function ProjectDetailsMusicPlayerApp() {
   return (
@@ -18,7 +18,7 @@ function ProjectDetailsMusicPlayerApp() {
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
-                  This application was built for _____________________
+                  This application was built as _____________________
                 </p>
               </div>
               <div class="project-details__tools-used">

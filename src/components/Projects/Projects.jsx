@@ -7,7 +7,7 @@ import ProjectScreenTravelSite from "../../assets/images/project-screen-travelsi
 import ProjectScreenCoffeeShop from "../../assets/images/project-screen-coffeeshop.jpeg";
 import ProjectScreenCrisisConnect from "../../assets/images/project-screen-crisis-connect.jpeg";
 import ProjectScreenWeatherForecaster from "../../assets/images/project-screen-weather-forecaster.jpeg";
-import ProjectScreenMusicPlayerApp from "../../assets/images/project-screen-weather-forecaster.jpeg";
+import ProjectScreenMusicPlayerApp from "../../assets/images/project-screen-music-player-app.jpeg";
 
 function Projects() {
   return (
