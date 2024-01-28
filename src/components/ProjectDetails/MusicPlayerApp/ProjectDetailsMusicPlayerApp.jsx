@@ -18,7 +18,9 @@ function ProjectDetailsMusicPlayerApp() {
               <div class="project-details__desc">
                 <h3 class="project-details__content-title">Project Overview</h3>
                 <p class="project-details__desc-para">
-                  This application was built as _____________________
+                  This application was built to revamp the original website from
+                  VanillaJS to React for enhancing searchability and filtering
+                  of audio tracks.
                 </p>
               </div>
               <div class="project-details__tools-used">
@@ -37,7 +39,7 @@ function ProjectDetailsMusicPlayerApp() {
               <div class="project-details__links">
                 <h3 class="project-details__content-title">See Live</h3>
                 <a
-                  href="https://supreet-kaur-pokemania.netlify.app/"
+                  href="https://preprod13kirtan.netlify.app/"
                   class="btn btn--med btn--theme project-details__links-btn"
                   target="_blank"
                   rel="noreferrer"
@@ -45,7 +47,7 @@ function ProjectDetailsMusicPlayerApp() {
                   Live Link
                 </a>
                 <a
-                  href="https://github.com/isupreetk/Hackathon-client.git"
+                  href="https://github.com/isupreetk/brahm-bunga-dodra-kirtan.git"
                   class="btn btn--med btn--theme-inv project-details__links-btn"
                   target="_blank"
                   rel="noreferrer"

@@ -14,7 +14,7 @@ function ProjectHeroMusicPlayerApp() {
           </div>
           <div class="project-cs-hero__cta">
             <a
-              href="https://https://preprod13kirtan.netlify.app/"
+              href="https://preprod13kirtan.netlify.app/"
               class="btn btn--bg"
               target="_blank"
               rel="noreferrer"
