@@ -42,7 +42,7 @@ function Header() {
               <a
                 target="_blank"
                 rel="noreferrer noopener"
-                href="https://drive.google.com/file/d/1EqB7u-piO0U3hdtTWZn1ChzsatePt_BQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1vB2gmlw1S0hWUXC3VYCIAvJMnLIR8vk3/view?usp=sharing"
                 class="header__link"
               >
                 Resume
