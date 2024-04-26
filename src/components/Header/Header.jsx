@@ -39,6 +39,16 @@ function Header() {
               </a>
             </li>
             <li class="header__link-wrapper">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://drive.google.com/file/d/1EqB7u-piO0U3hdtTWZn1ChzsatePt_BQ/view?usp=sharing"
+                class="header__link"
+              >
+                Resume
+              </a>
+            </li>
+            <li class="header__link-wrapper">
               <a href="/#contact" class="header__link">
                 Contact
               </a>

@@ -4,18 +4,21 @@ import GitHubIcon from "../../assets/icons/github-icon.png";
 import UpArrowIcon from "../../assets/icons/up-arrow.svg";
 
 function Footer() {
+  const handleScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <footer class="main-footer">
       <div className="chevron-container">
-        <a href="/">
-          <div className="chevron-wrapper">
-            <img
-              src={UpArrowIcon}
-              className="chevron-double-up"
-              alt="Up Arrow"
-            />
-          </div>
-        </a>
+        <div className="chevron-wrapper">
+          <img
+            src={UpArrowIcon}
+            className="chevron-double-up"
+            alt="Up Arrow"
+            onClick={handleScrollToTop}
+          />
+        </div>
       </div>
       <div class="main-container">
         <div class="main-footer__upper">
@@ -60,9 +63,7 @@ function Footer() {
             </p>
           </div>
         </div>
-
-        {/* <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) --> */}
-        <div class="main-footer__lower">&copy; Copyright 2023</div>
+        <div class="main-footer__lower">&copy; MADE WITH ♡ BY SUPREET KAUR</div>
       </div>
     </footer>
   );

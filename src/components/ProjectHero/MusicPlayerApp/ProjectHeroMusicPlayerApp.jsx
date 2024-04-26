@@ -7,7 +7,7 @@ function ProjectHeroMusicPlayerApp() {
         <div class="project-cs-hero__content">
           <h1 class="heading-primary">Music Player App</h1>
           <div class="project-cs-hero__info">
-            <p class="text-primary">
+            <p class="text-primary text-primary--project">
               This is a website for a religious group to allow users to search,
               filter and play hymns / music.
             </p>

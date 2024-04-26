@@ -1,5 +1,7 @@
 .skills {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap; 
 }
 
@@ -12,10 +14,6 @@
       border-radius: 5px;
       font-weight: 600;
       color: #777; 
-}
-      
-.about {
-    background: #fafafa;
 }
 
 .about__content {

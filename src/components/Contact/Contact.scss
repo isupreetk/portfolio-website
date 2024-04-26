@@ -34,8 +34,7 @@
 // }
 
 .contact {
-    // background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
-    background: linear-gradient(to right, rgba(47, 51, 55, 0.8), rgba(47, 51, 55, 0.8)), url("../../assets/icons/common-bg.svg");
+    // background: linear-gradient(to right, rgba(47, 51, 55, 0.8), rgba(47, 51, 55, 0.8)), url("../../assets/icons/common-bg.svg");
     background-size: cover;
     background-position: center; }
     .contact__form-container {
@@ -57,7 +56,8 @@
         .contact__form-field {
           margin-bottom: 3rem; } }
     .contact__form-label {
-      color: #666;
+      // color: #666;
+      color: #000;
       font-size: 1.4rem;
       letter-spacing: 1px;
       font-weight: 700;
@@ -65,7 +65,8 @@
       display: block;
       text-align: left; }
     .contact__form-input {
-      color: #333;
+      // color: #333;
+      color: #000;
       padding: 2rem;
       width: 100%;
       border: 1px solid #ebebeb;
@@ -81,29 +82,35 @@
       /* Code for Mozilla Firefox 4 to 18 */
       /* Code for Mozilla Firefox 19+ */ }
       .contact__form-input::placeholder {
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
       .contact__form-input::-webkit-input-placeholder {
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
       .contact__form-input:-ms-input-placeholder {
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
       .contact__form-input::-ms-input-placeholder {
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
       .contact__form-input:-moz-placeholder {
         opacity: 1;
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
       .contact__form-input::-moz-placeholder {
         opacity: 1;
-        color: #999;
+        // color: #999;
+        color: #000;
         font-weight: 600;
         font-size: 1.6rem; }
     .contact__btn {

@@ -1,6 +1,7 @@
 import "./Contact.scss";
-import LinkedInIcon from "../../assets/icons/linkedin-icon.png";
-import GitHubIcon from "../../assets/icons/github-icon.png";
+import LinkedInIcon from "../../assets/icons/dark-linkedin-icon.png";
+import GitHubIcon from "../../assets/icons/dark-github-icon.png";
+import LeetCodeIcon from "../../assets/icons/dark-leetcode-icon.png";
 
 function Contact() {
   return (
@@ -9,7 +10,7 @@ function Contact() {
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main heading-sec__main--lt">Contact</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Always happy to connect! New connections lead to new learnings!
+            Happy to connect! New connections lead to new learnings!
             {/* Please feel free to reach out if you have any questions or would
             like to work together. */}
           </span>
@@ -101,7 +102,8 @@ function Contact() {
           >
             <img
               class="main-footer__icon"
-              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+              // src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+              src={LeetCodeIcon}
               alt="supreet97"
               height="30"
             />
