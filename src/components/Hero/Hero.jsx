@@ -10,7 +10,7 @@ function Hero() {
             <h1 class="heading-primary heading-primary--greet">Hi! </h1>
             <h1 class="heading-primary">My name is Supreet Kaur</h1>
             <div class="home-hero__info">
-              <p class="text-primary">Front-End Software Developer</p>
+              <p class="text-primary">A Front-End Developer</p>
             </div>
             <div class="home-hero__cta">
               <a

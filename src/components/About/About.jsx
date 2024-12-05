@@ -8,7 +8,7 @@ function About() {
           <h2 class="heading heading-sec heading-sec__mb-med">
             <span class="heading-sec__main">About Me</span>
             <span class="heading-sec__sub">
-              An Electronics and Telecommunication Engineer turned Software
+              An Electronics and Telecommunication Engineer turned Front-End
               Developer.
             </span>
           </h2>
@@ -30,8 +30,8 @@ function About() {
                   audiences.
                 </p>
                 <p class="about__content-details-para">
-                  On the personal front - I find peace in baking, dancing and
-                  traveling to explore new places.
+                  On the personal front - I find peace in baking, dancing,
+                  traveling and exploring new places.
                 </p>
                 {/* <p class="about__content-details-para">
                    Please feel free to reach out on <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kaur-supreet/"><strong>LinkedIn</strong></a> if you have any questions or would like to collaborate! 
@@ -47,22 +47,24 @@ function About() {
               <h3 class="about__content-title">My Skills</h3>
               <div class="skills">
                 <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">SASS</div>
+                <div class="skills__skill">CSS / SASS</div>
                 <div class="skills__skill">JavaScript</div>
                 <div class="skills__skill">TypeScript</div>
                 {/* <div class="skills__skill">Axios</div>
                 <div class="skills__skill">NPM</div> */}
                 <div class="skills__skill">React</div>
+                <div class="skills__skill">Redux Toolkit</div>
                 <div class="skills__skill">NodeJS</div>
                 <div class="skills__skill">ExpressJS</div>
+                <div class="skills__skill">MongoDB</div>
+                <div class="skills__skill">MySQL</div>
+                <div class="skills__skill">MS SQL Server</div>
+                <div class="skills__skill">TailwindCSS</div>
                 <div class="skills__skill">BootStrap</div>
                 <div class="skills__skill">Jest</div>
                 <div class="skills__skill">GIT</div>
-                <div class="skills__skill">MySQL</div>
-                <div class="skills__skill">MS SQL Server</div>
-                <div class="skills__skill">MongoDB</div>
                 <div class="skills__skill">Heroku</div>
+                <div class="skills__skill">Firebase</div>
                 <div class="skills__skill">OAuth</div>
                 <div class="skills__skill">Socket.io</div>
               </div>
